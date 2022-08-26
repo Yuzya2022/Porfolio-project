@@ -21,16 +21,16 @@
   }
   
   h1 {
-    font-size: 96px;
+    font-size: 56px;
     line-height: 1.5;
   }
   
   h2 {
-    font-size: 64px;
+    font-size: 46px;
   }
   
   h3 {
-    font-size: 48px;
+    font-size: 36px;
   }
   
   p {
@@ -64,8 +64,9 @@
   }
   
   .content h1 {
-    font-size: 64px;
-    line-height: 80px;
+    font-size: 44px;
+    line-height: 1.25;
+    text-align: center;
   }
   
   .content h2 {
@@ -180,14 +181,14 @@
     background: var(--branding-color);
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     h1 {
       font-size: 44px;
       line-height: 1.5;
     }
   
     h2 {
-      font-size: 44px;
+      font-size: 36px;
     }
   
     h3 {
